@@ -1,10 +1,11 @@
 import React from 'react'
+import Sidebar from './Sidebar'
 import './App.css'
 
 function App() {
   return (
-    <div className="App">
-      <h1>DISCORD CLONE</h1>
+    <div className="app">
+      <Sidebar />
     </div>
   )
 }
